@@ -1,4 +1,4 @@
-package com.rakesh.lists;
+package com.rakesh.stacks;
 
 import java.util.Objects;
 

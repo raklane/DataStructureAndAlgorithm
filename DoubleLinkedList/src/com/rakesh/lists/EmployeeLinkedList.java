@@ -10,8 +10,12 @@ public class EmployeeLinkedList {
     public void addToFront(Employee employee){
         EmployeeNode employeeNode = new EmployeeNode(employee);
         employeeNode.setNext(head);
-        employeeNode.setPrevious(null);
-        head.setPrevious(employeeNode);
+
+        if(head == null){
+            tail = employeeNode;
+        }else {
+            head.setPrevious(employeeNode);
+        }
         head = employeeNode;
         size++;
     }
@@ -19,14 +23,23 @@ public class EmployeeLinkedList {
     public void addToEnd(Employee employee){
         EmployeeNode employeeNode = new EmployeeNode(employee);
         employeeNode.setPrevious(tail);
-        employeeNode.setNext(tail.getNext());
-        tail.setNext(employeeNode);
+
+        if(tail == null){
+            head = employeeNode;
+        }else{
+            tail.setNext(employeeNode);
+        }
         tail = employeeNode;
         size++;
     }
 
     public EmployeeNode removeFromFront(){
         EmployeeNode removedNode = head;
+        if(head == tail){
+            head = null;
+            tail = null;
+            return removedNode;
+        }
         head = removedNode.getNext();
         head.setPrevious(removedNode.getPrevious());
         removedNode.setPrevious(null);
@@ -37,6 +50,11 @@ public class EmployeeLinkedList {
 
     public EmployeeNode removeFromEnd(){
         EmployeeNode removedNode = tail;
+        if(head == tail){
+            head = null;
+            tail = null;
+            return removedNode;
+        }
         tail = tail.getPrevious();
         tail.setNext(removedNode.getNext());
         removedNode.setPrevious(null);
@@ -58,8 +76,9 @@ public class EmployeeLinkedList {
     public void printList(){
         System.out.println("HEAD ->");
         EmployeeNode current = head;
-        while (current!=tail.getNext()){
-            System.out.println(head.getEmployee());
+        while (current!=null){
+            System.out.println(current.getEmployee());
+            current = current.getNext();
         }
     }
 

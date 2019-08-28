@@ -7,7 +7,13 @@ public class Main {
         EmployeeLinkedList list = new EmployeeLinkedList();
 
         System.out.println(list.isEmpty());
-        list.addToFront(new Employee("Rakesh", "Kumar", 123));
+        list.addToEnd(new Employee("Rakesh", "Kumar", 123));
+        list.addToFront(new Employee("Manish", "Anand", 124));
+        list.addToEnd(new Employee("Sudesh", "Deshpande", 125));
+
+        list.removeFromFront();
+        list.removeFromEnd();
+
         System.out.println(list.getSize());
         System.out.println(list.isEmpty());
         list.printList();

@@ -1,14 +1,12 @@
-package com.rakesh.lists;
-
-import java.util.Objects;
+package academy.learnprogramming.challenge1;
 
 public class EmployeeNode {
 
-    Employee employee;
-    EmployeeNode previous;
-    EmployeeNode next;
+    private Employee employee;
+    private EmployeeNode next;
+    private EmployeeNode previous;
 
-    public EmployeeNode(Employee employee){
+    public EmployeeNode(Employee employee) {
         this.employee = employee;
     }
 
@@ -20,6 +18,14 @@ public class EmployeeNode {
         this.employee = employee;
     }
 
+    public EmployeeNode getNext() {
+        return next;
+    }
+
+    public void setNext(EmployeeNode next) {
+        this.next = next;
+    }
+
     public EmployeeNode getPrevious() {
         return previous;
     }
@@ -28,12 +34,8 @@ public class EmployeeNode {
         this.previous = previous;
     }
 
-    public EmployeeNode getNext() {
-        return next;
-    }
-
-    public void setNext(EmployeeNode next) {
-        this.next = next;
+    public String toString() {
+        return employee.toString();
     }
 
 

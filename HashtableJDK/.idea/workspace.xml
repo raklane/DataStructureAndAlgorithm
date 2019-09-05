@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38b6aefa-b62e-48b7-8a39-b401382193d5" name="Default Changelist" comment="">
+    <list default="true" id="5191f9c1-e46f-4c6a-a068-7c32272267b8" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../ArrayCircularQueue/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ArrayQueue/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ArrayQueue/src/com/rakesh/queue/ArrayQueue.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ArrayQueue/src/com/rakesh/queue/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HashTableArray/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HashTableArray/src/com/rakesh/hashtable/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HashTableArray/src/com/rakesh/hashtable/SimpleHashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HashTableArray/src/com/rakesh/hashtable/StoredEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HashTableChaining/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/rakesh/hashtable/Employee.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../LinkedListStack/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../LinkedListStack/src/com/rakesh/stacks/Employee.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../LinkedListStack/src/com/rakesh/stacks/LinkedListStack.java" afterDir="false" />
@@ -15,7 +22,7 @@
       <change afterPath="$PROJECT_DIR$/../Queues-Queues-Challenge-Source-Code/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Queues-Queues-Challenge-Source-Code/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ArrayLists/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ArrayLists/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stacks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Stacks/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,29 +33,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/rakesh/stacks/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/rakesh/stacks/Employee.java">
+        <entry file="file://$PROJECT_DIR$/src/com/rakesh/hashtable/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="119">
+              <caret line="33" column="87" selection-start-line="33" selection-start-column="87" selection-end-line="33" selection-end-column="87" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#500#518#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/rakesh/stacks/ArrayStack.java">
+        <entry file="file://$PROJECT_DIR$/src/com/rakesh/hashtable/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+            <state relative-caret-position="1105">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
+              <folding>
+                <element signature="e#360#361#0" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
+                <element signature="e#442#443#0" expanded="true" />
+                <element signature="e#484#485#0" expanded="true" />
+                <element signature="e#519#520#0" expanded="true" />
+                <element signature="e#550#551#0" expanded="true" />
+                <element signature="e#598#599#0" expanded="true" />
+                <element signature="e#638#639#0" expanded="true" />
+                <element signature="e#664#665#0" expanded="true" />
+                <element signature="e#689#690#0" expanded="true" />
+                <element signature="e#722#723#0" expanded="true" />
+                <element signature="e#750#751#0" expanded="true" />
+                <element signature="e#1395#1396#0" expanded="true" />
+                <element signature="e#1455#1456#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,9 +86,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/rakesh/stacks/Employee.java" />
-        <option value="$PROJECT_DIR$/src/com/rakesh/stacks/ArrayStack.java" />
-        <option value="$PROJECT_DIR$/src/com/rakesh/stacks/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/rakesh/hashtable/Employee.java" />
+        <option value="$PROJECT_DIR$/src/com/rakesh/hashtable/Main.java" />
       </list>
     </option>
   </component>
@@ -93,19 +110,19 @@
         <subPane>
           <expand>
             <path>
-              <item name="Stacks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Stacks" type="462c0819:PsiDirectoryNode" />
+              <item name="HashtableJDK" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HashtableJDK" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Stacks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Stacks" type="462c0819:PsiDirectoryNode" />
+              <item name="HashtableJDK" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HashtableJDK" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Stacks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Stacks" type="462c0819:PsiDirectoryNode" />
+              <item name="HashtableJDK" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HashtableJDK" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="stacks" type="462c0819:PsiDirectoryNode" />
+              <item name="hashtable" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -114,8 +131,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566794688418" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567725277374" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -131,8 +147,8 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.rakesh.stacks.Main" />
-      <module name="Stacks" />
+      <option name="MAIN_CLASS_NAME" value="com.rakesh.hashtable.Main" />
+      <module name="HashtableJDK" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -151,11 +167,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="38b6aefa-b62e-48b7-8a39-b401382193d5" name="Default Changelist" comment="" />
-      <created>1566765272856</created>
+      <changelist id="5191f9c1-e46f-4c6a-a068-7c32272267b8" name="Default Changelist" comment="" />
+      <created>1567723698045</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1566765272856</updated>
+      <updated>1567723698045</updated>
     </task>
     <servers />
   </component>
@@ -163,53 +179,66 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16187595" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24962178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.65630114" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.49918166" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.60720134" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/rakesh/stacks/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/rakesh/hashtable/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="1105">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+            <element signature="e#1395#1396#0" expanded="true" />
+            <element signature="e#1455#1456#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rakesh/stacks/ArrayStack.java">
+    <entry file="file://$PROJECT_DIR$/src/com/rakesh/hashtable/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rakesh/stacks/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="119">
+          <caret line="33" column="87" selection-start-line="33" selection-start-column="87" selection-end-line="33" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#500#518#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
